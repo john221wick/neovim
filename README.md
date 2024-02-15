@@ -32,7 +32,7 @@ This configuration enhances Neovim with features for efficient navigation, code 
    :PackerSync 
    ```
 
-4. **Optional: Install Language Servers**(I have not added any LSP, will update it soon) 
+4. **Optional: Install Language Servers**(I have not added LSP(formatter and linters), will update it soon) 
 
 **Usage**
 
