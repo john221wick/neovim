@@ -1,47 +1,48 @@
-**Custom Neovim Keybindings**
+**My Custom Neovim Configuration**
 
-This configuration provides a set of convenient keybindings within Neovim to improve efficiency and streamline your workflow.
+This configuration enhances Neovim with features for efficient navigation, code understanding, and a beautiful interface.
 
-**Keymapping Conventions:**
+**Features**
 
-* **Leader Key:**  Set to the spacebar (`<space>`) for easy access 
-* **`<CR>`:** Represents the Enter key
+* **Used Plugins like **
+    * **nvim-tree.lua:** A powerful file explorer for easy project navigation.
+    * **Telescope.nvim:** Fuzzy finder for quickly searching files, buffers, and more.
+    * **Treesitter:** Syntax highlighting, code folding, and better navigation based on code structure.
+    * **lualine.nvim:**  Customizable status line for essential editor information.
+    * **nvim-autopairs:** Automatically manages pairs of brackets, quotes, etc.
+    * **nvim-comment:** Effortlessly toggle code comments.
+    * **gitsigns.nvim:** Displays Git status indicators within the editor.
+    * **nvim-cmp:** Powerful completion engine with snippet support.
+    * **lsp, formatter, linters :** I have not used them yet, will be adding it soon.
+**Getting Started**
 
-**Core Shortcuts**
+1. **Prerequisites:**
+    * Neovim (version 0.5 or later) 
+    * Git
 
-* **Escape:** Caps Lock is remapped to function as Escape in Normal, Visual, and Insert modes.
-* **Search Highlight Clearing:** `<leader>nh` to remove search highlighting.
-* **Number Manipulation:** 
-    * `<leader>+`: Increment numbers under the cursor.
-    * `<leader>-`: Decrement numbers under the cursor.
+2. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/john221wick/nvim.git ~/.config/nvim
+   ```
 
-**Window & Tab Management**
+3. **Install Plugins:**
+   Open Neovim and run:
+   ```bash
+   nvim
+   :PackerSync 
+   ```
 
-* **Window Splits:** 
-    * `<leader>sv`: Create a vertical split.
-    * `<leader>sh`: Create a horizontal split.
-    * `<leader>se`: Equalize split sizes.
-    * `<leader>sx`:  Close the current split.
-* **Tabs:** 
-    * `<leader>to`: Open a new tab.
-    * `<leader>tx`: Close the current tab.
-    * `<leader>tn`: Move to the next tab.
-    * `<leader>tp`: Move to the previous tab.
-    * `<leader>tf`: Open the current buffer in a new tab.
+4. **Optional: Install Language Servers**(I have not added LSP(formatter and linters), will update it soon) 
 
-**Plugin Shortcuts**
+**Usage**
 
-* **vim-maximizer:**
-    * `<leader>sm`: Toggle maximization of the active window split.
-* **nvim-tree:**
-    * `<leader>e`: Toggle the NvimTree file explorer.
-* **Telescope.nvim:** 
-    * `<leader>ff`: Find files.
-    * `<leader>fs`: Live grep (search text as you type).
-    * `<leader>fc`: Find the word under the cursor.
-    * `<leader>fb`: List open buffers.
-    * `<leader>fh`: Search help tags. 
+* **Launch Neovim:** `nvim`
 
 **Customization**
 
-These keybindings are located in your Neovim configuration file (likely `nvim/lua/aman/core/keymaps.lua`). You can modify or add new shortcuts to match your preferences. Consider referring to the documentation of individual plugins for more available commands.
+All configuration files are located in the `~/.config/nvim/lua/aman` directory. Feel free to explore and tailor the setup to your preferences.
+
+**Credit**
+
+This whole setup is inspired from Josean setup.
+Thank you Josean for amazing youtube video.
