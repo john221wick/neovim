@@ -22,7 +22,7 @@ This configuration enhances Neovim with features for efficient navigation, code 
 
 2. **Clone the Repository:**
    ```bash
-   git clone https://github.com/john221wick/neovim.git ~/.config/nvim
+   git clone https://github.com/john221wick/neovim/nvim.git ~/.config/nvim
    ```
 
 3. **Install Plugins:**
