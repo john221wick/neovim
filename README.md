@@ -42,6 +42,31 @@ This configuration enhances Neovim with features for efficient navigation, code 
 
 All configuration files are located in the `~/.config/nvim/lua/aman` directory. Feel free to explore and tailor the setup to your preferences.I will also add tmux.conf and all necessary files for dev
 
+* About the tmux configuration file *
+
+**Filename:**
+
+* `.tmux.conf` 
+
+**Location:**
+
+* This file is typically placed in your home directory (`~/.tmux.conf`).  
+
+**Loading the Configuration:**
+
+1. **Make Changes (if you want to make some more changes):** Edit your `.tmux.conf` file with the desired customization settings.
+
+2. **Reload tmux:** To apply your changes, execute the following command within a tmux session:
+
+   ```bash
+   tmux source-file ~/.tmux.conf 
+   ```
+
+**Key Points**
+
+* If you don't have a `.tmux.conf` file, you can create one.
+* Any modifications made to `.tmux.conf` will only take effect after reloading tmux. 
+
 **Credit**
 
 This whole setup is inspired from Josean setup.
