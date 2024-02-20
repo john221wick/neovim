@@ -42,7 +42,7 @@ This configuration enhances Neovim with features for efficient navigation, code 
 
 All configuration files are located in the `~/.config/nvim/lua/aman` directory. Feel free to explore and tailor the setup to your preferences.I will also add tmux.conf and all necessary files for dev
 
-* About the tmux configuration file *
+**About the tmux configuration file**
 
 **Filename:**
 
