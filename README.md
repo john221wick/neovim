@@ -1,10 +1,10 @@
-**My Custom Neovim Configuration**
+**My Custom Neovim & tmux Configuration**
 
 This configuration enhances Neovim with features for efficient navigation, code understanding, and a beautiful interface.
 
 **Features**
 
-* **Used Plugins like **
+**Used Plugins like**
     * **nvim-tree.lua:** A powerful file explorer for easy project navigation.
     * **Telescope.nvim:** Fuzzy finder for quickly searching files, buffers, and more.
     * **Treesitter:** Syntax highlighting, code folding, and better navigation based on code structure.
